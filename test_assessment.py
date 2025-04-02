@@ -48,7 +48,7 @@ while Chosen_activity == None and Student_eligibility == True: ## Using a while 
         print("Invalid choice, try again.")
         Chosen_activity = None
 Chosen_meal = None
-while Chosen_meal == None and Student_eligibility == True:
+while Chosen_meal == None and Student_eligibility == True: ## If an invalid choice for meal is chosen it will loop back
     Chosen_meal = int(input("\nMeal options:\n1. Standard\n2. Vegetarian\n3. Dairy-free\n4. No meal\nEnter the number of your meal choice: "))
     if Chosen_meal == 1:
         Chosen_meal = "Standard"
