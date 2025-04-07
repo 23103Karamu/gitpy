@@ -22,10 +22,8 @@ while Student_age is None: ## If the student doesn't input an integer for their 
 
 ## Checking if the student is eligible for the Club Day
 Student_eligibility = False
-if Student_age <= 11:
-    print("Sorry, but you are not eligible for the Club Day due to being too young")
-elif Student_age >= 18:
-    print("Pedophiles are not allowed")
+if Student_age <= 11 or Student_age >= 18:
+    print("Sorry, but you are not eligible for the Club Day due to your age")
 else:
     Student_eligibility = True
 
